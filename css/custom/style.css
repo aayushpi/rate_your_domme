@@ -17,8 +17,7 @@ h1{
   font-size: 6em;
   font-style: italic;
   background: url(/img/splooge.png) no-repeat;
-  /* color: #E500DF; */
-  color: red;
+  color: #E500DF; 
   padding: 120px 320px 140px 320px;
   background-position: 185px 0;
   line-height: 90px;
