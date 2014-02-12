@@ -8,6 +8,7 @@
     $('#lead h2').html(content[arr]);
     $('#lead h2').delay(1000).fadeIn(500, function(){
       $('nav').fadeIn(500);
+      $('#explanation').fadeIn(500);
     });
   });
 

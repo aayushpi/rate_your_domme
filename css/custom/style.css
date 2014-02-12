@@ -38,25 +38,31 @@ body{
   line-height: 1.2em;
   width: 650px;
 }
-
+#explanation{
+  display: none;
+}
 
 #explanation h2 {
   font-size: 2em;
 }
+.column {
+    border-top: 1px solid #FF5F74;
+    padding: 1em;
+    background-color: #FF5F74;
+    background-color: rgba(255,95,116,0.1);
+}
 
 .column h3 {
-    font-size: 1.5em;
-}
-.column {
-  width: 300px;
-  float: left;
-  margin-right: 15px;
-  border: 2px solid #FF5F74;
-  border-radius: 4px;
-  padding: 10px;
+font-size: 2em;
+margin-left: 150px;
+margin-bottom: 0;
+margin-top: 0;
 }
 .column p {
-  font-size: 1.5em;
+font-size: 1.5em;
+margin: 0 0 0 150px;
+line-height: 24px;
+width: 640px;
 }
 nav{
 display:none;}
@@ -67,7 +73,11 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
-
+.column img {
+  width: 80px;
+  float: left;
+  margin-left: 30px;
+}
 nav ul li {
   display: inline;
   margin-right: 20px;
