@@ -799,7 +799,7 @@ textarea {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  *behavior: url(boxsizing.htc); }
 html{
   height: 100%;
-  background: #161e26;
+  background: #f3e7d7;
 
 }
 body{
@@ -808,16 +808,50 @@ body{
   width: 960px;
 }
 
-h1{
-  letter-spacing: .0250em;
-  text-align: center;
-  font-size: 6em;
-  font-style: italic;
-  background: url(/img/splooge.png) no-repeat;
-  color: #E500DF; 
-  padding: 120px 320px 140px 320px;
-  background-position: 185px 0;
-  line-height: 90px;
+#lead h1{
+  color: #FF5F74;
+  font-size: 7em;
+  line-height: 100px;
+  margin-top: 200px;
+}
+#lead h2 {
+  font-weight: 100;
+  position: absolute;
+  top: 331px;
+  left: 700px;
+  width: 340px;
+  line-height: 1;
+  color: #000;
+  display: none;
+}
+#section p {
+  font-size: 2em;
+  width: 800px;
+  line-height: 1.2em;
+}
+
+#explanation > p {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  width: 650px;
 }
 
 
+#explanation h2 {
+  font-size: 2em;
+}
+
+.column h3 {
+    font-size: 1.5em;
+}
+.column {
+width: 300px;
+float: left;
+margin-right: 15px;
+border: 2px solid #FF5F74;
+border-radius: 4px;
+padding: 10px;
+}
+.column p {
+    font-size: 1.5em;
+}

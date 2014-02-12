@@ -1,8 +1,11 @@
 /**
  * scripts.js
  */
-// (function($) {
+(function($) {
 
-// your code here
+  $(document).ready(function(){
+    $('#lead h2').delay(500).fadeIn(500);
+  });
 
-// }(jQuery));
+
+}(jQuery));
