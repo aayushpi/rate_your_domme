@@ -41,8 +41,14 @@ body{
 #explanation{
   display: none;
 }
-
-#explanation h2 {
+#lead h1 span {
+color: #000;
+font-size: 48px;
+margin-top: 0;
+display: inline-block;
+position: relative;
+top: -55px;
+}#explanation h2 {
   font-size: 2em;
 }
 .column {
