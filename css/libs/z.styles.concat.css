@@ -845,13 +845,36 @@ body{
     font-size: 1.5em;
 }
 .column {
-width: 300px;
-float: left;
-margin-right: 15px;
-border: 2px solid #FF5F74;
-border-radius: 4px;
-padding: 10px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+  border: 2px solid #FF5F74;
+  border-radius: 4px;
+  padding: 10px;
 }
 .column p {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+nav{
+display:none;}
+nav ul li a:hover {
+  color: black;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  background-color: #FF5F74;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 2em;
+  font-family:cubano-sharp;
+}
+
+nav ul {
+  padding: 0;
 }
