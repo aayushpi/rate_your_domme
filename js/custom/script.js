@@ -2,7 +2,7 @@
  * scripts.js
  */
 (function($) {
-  var content = ['BDSM doesn&rsquo;t have to be scary (unless you&rsquo;re into that)','Too much Evanesence? We can fix that with pink'];
+  var content = ['BDSM doesn&rsquo;t have to be scary (unless you&rsquo;re into that)', 'BDSM doesn&rsquo;t have to be scary (unless you&rsquo;re into that)'];
   var arr = Math.floor((Math.random()*2));
   $(document).ready(function(){
     $('#lead h2').html(content[arr]);
