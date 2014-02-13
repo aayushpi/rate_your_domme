@@ -21,7 +21,7 @@ body{
   font-weight: 100;
   position: absolute;
   top: 331px;
-  left: 530px;
+  left: 700px;
   width: 340px;
   line-height: 1;
   color: #000;
@@ -71,7 +71,8 @@ line-height: 24px;
 width: 640px;
 }
 nav{
-display:none;}
+display:none;
+margin-top:-120px;}
 nav ul li a:hover {
   color: black;
 }
