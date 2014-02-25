@@ -805,20 +805,26 @@ html{
 body{
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+}
+section{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 #lead h1{
   color: #FF5F74;
   font-size: 7em;
   line-height: 100px;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  height: 250px;
 }
 #lead h2 {
   font-weight: 100;
-  position: absolute;
-  top: 331px;
-  left: 700px;
+  /* position: absolute; */
+  /* top: 331px; */
+  /* left: 700px; */
   width: 340px;
   line-height: 1;
   color: #000;
@@ -837,6 +843,7 @@ body{
 }
 #explanation{
   display: none;
+  padding-top: 100px;
 }
 #lead h1 span {
 color: #000;
@@ -869,7 +876,7 @@ width: 640px;
 }
 nav{
 display:none;
-margin-top:-120px;}
+}
 nav ul li a:hover {
   color: black;
 }
@@ -877,14 +884,23 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
+
+.soon {
+    opacity: 0.4;
+}
+.soon a:hover {
+    color: white;
+    cursor: default;
+}
 .column img {
   width: 80px;
   float: left;
   margin-left: 30px;
 }
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin-right: 20px;
+  margin-top: 20px;
   background-color: #FF5F74;
   padding: 10px;
   border-radius: 4px;
